@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Home from './Home'
 import About from './About'
@@ -7,6 +7,22 @@ import Contact from './Contact'
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  useEffect(() => {
+    const handleToggleNav = () => {
+      setIsMenuOpen(prevIsMenuOpen => !prevIsMenuOpen)
+    }
+
+    const toggleNavCheckbox = document.getElementById('toggleNav')
+
+    if (toggleNavCheckbox) {
+      toggleNavCheckbox.addEventListener('change', handleToggleNav)
+
+      return () => {
+        toggleNavCheckbox.removeEventListener('change', handleToggleNav)
+      }
+    }
+  }, [])
 
   return (
     <Router>
