@@ -22,7 +22,7 @@ const Nav = () => {
         toggleNavCheckbox.removeEventListener('change', handleToggleNav)
       }
     }
-  }, [])
+  }, []) // Empty dependency array ensures this effect runs only after component mount
 
   return (
     <Router>
