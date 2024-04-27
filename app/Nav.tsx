@@ -174,7 +174,7 @@ const NavbarOne = (props: Props) => {
           <div className='flex items-center justify-between'>
             <Link href='/'>
               <h1 className='flex-none italic text-xl font-semibold'>
-                Teni Dev
+                Ajao Dev
               </h1>
             </Link>
             <div className='flex md:hidden'>
