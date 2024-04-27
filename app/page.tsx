@@ -1,18 +1,15 @@
-import React from "react";
-import Hero from "./components/Home/Hero";
-import About from "./components/Home/About";
-import Footer from "./components/Footer";
+'use client'
+import React from 'react'
+import Nav from './Nav'
 
-type Props = {};
+type Props = {}
 
 const page = (props: Props) => {
   return (
     <div>
-      <Hero />
-      <About />
-      <Footer />
+      <Nav />
     </div>
-  );
-};
+  )
+}
 
-export default page;
+export default page
