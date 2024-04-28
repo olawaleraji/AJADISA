@@ -5,7 +5,7 @@ type Props = {}
 const About = (props: Props) => {
   return (
     <div>
-      <div className='lg:bg-gray-white text-gray-600 py-16'>
+      <div className='lg:bg-white text-gray-600 py-16'>
         <div className='xl:container m-auto px-6 md:px-12 xl:px-16'>
           <div className='lg:p-16 rounded-[4rem] space-y-6 md:flex flex-row-reverse md:gap-6 justify-center md:space-y-0 lg:items-center'>
             <div className='md:5/12 lg:w-1/2'>
@@ -19,7 +19,7 @@ const About = (props: Props) => {
               />
             </div>
             <div className='md:7/12 lg:w-1/2'>
-              <h2 className='text-3xl font-semibold text-gray-900 md:text-4xl'>
+              <h2 className='text-3xl font-semibold text-gray-600 md:text-4xl'>
                 About Me
               </h2>
               <p className='my-8 text-gray-600 lg:pr-12'>
@@ -40,7 +40,7 @@ const About = (props: Props) => {
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
-                      className='w-6 h-6 m-auto text-indigo-500 dark:text-indigo-400'
+                      className='w-6 h-6 m-auto text-indigo-400'
                     >
                       <path
                         fill-rule='evenodd'
@@ -50,10 +50,10 @@ const About = (props: Props) => {
                     </svg>
                   </div>
                   <div className='w-5/6'>
-                    <h4 className='font-semibold text-lg text-gray-700 dark:text-indigo-300'>
+                    <h4 className='font-semibold text-lg text-indigo-400'>
                       Agile Problem-Solver
                     </h4>
-                    <p className='text-gray-500 dark:text-gray-400'>
+                    <p className='text-gray-600'>
                       I excel at dissecting complex issues, crafting effective
                       solutions, and navigating uncertainties to deliver optimal
                       results.
@@ -61,12 +61,12 @@ const About = (props: Props) => {
                   </div>
                 </div>
                 <div className='pt-4 flex gap-4 md:items-center'>
-                  <div className='w-12 h-12 flex gap-4 rounded-full bg-teal-100 dark:bg-teal-900/20'>
+                  <div className='w-12 h-12 flex gap-4 rounded-full bg-teal-900/20'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
                       fill='currentColor'
-                      className='w-6 h-6 m-auto text-teal-600 dark:text-teal-400'
+                      className='w-6 h-6 m-auto text-teal-400'
                     >
                       <path
                         fill-rule='evenodd'
@@ -77,7 +77,7 @@ const About = (props: Props) => {
                   </div>
                   <div className='w-5/6'>
                     <div className=''></div>
-                    <h3 className='font-semibold text-lg text-gray-700 dark:text-teal-300'>
+                    <h3 className='font-semibold text-lg text-teal-400'>
                       Collaboration Specialist
                     </h3>
                     <p className='text-gray-500 dark:text-gray-400'>
