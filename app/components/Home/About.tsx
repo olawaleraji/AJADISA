@@ -53,7 +53,7 @@ const About = (props: Props) => {
                     <h4 className='font-semibold text-lg text-indigo-400'>
                       Agile Problem-Solver
                     </h4>
-                    <p className='text-gray-600'>
+                    <p className='text-gray-500'>
                       I excel at dissecting complex issues, crafting effective
                       solutions, and navigating uncertainties to deliver optimal
                       results.
