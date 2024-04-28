@@ -91,24 +91,51 @@ const Nav = () => {
         </div>
         <div className='lg:hidden absolute top-2 right-8 w-max flex items-center gap-4'>
           <div className='flex items-center md:hidden max-h-10'>
-            <label
-              role='button'
-              htmlFor='toggleNav'
-              aria-label='humburger'
-              id='hamburger'
-              className='relative p-6 -mr-6'
-            >
-              <div
-                role='hidden'
-                id='line'
-                className='m-auto h-0.5 w-6 rounded bg-sky-900 dark:bg-gray-200 transition duration-300'
-              ></div>
-              <div
-                role='hidden'
-                id='line2'
-                className='m-auto mt-2 h-0.5 w-6 rounded bg-sky-900 dark:bg-gray-200 transition duration-300'
-              ></div>
-            </label>
+            <button onClick={() => setIsOpen(!isOpen)}>
+              {!isOpen ? (
+                <label
+                  role='button'
+                  htmlFor='toggleNav'
+                  aria-label='humburger'
+                  id='hamburger'
+                  className='relative p-6 -mr-6'
+                >
+                  <div
+                    role='hidden'
+                    id='line'
+                    className='m-auto h-0.5 w-6 rounded bg-sky-900 dark:bg-gray-200 transition duration-300'
+                  ></div>
+                  <div
+                    role='hidden'
+                    id='line2'
+                    className='m-auto mt-2 h-0.5 w-6 rounded bg-sky-900 dark:bg-gray-200 transition duration-300'
+                  ></div>
+                </label>
+              ) : (
+                <label
+                  role='button'
+                  htmlFor='toggleNav'
+                  aria-label='humburger'
+                  id='hamburger'
+                  className='relative p-6 -mr-6'
+                >
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='w-6 h-6'
+                    fill='none'
+                    viewBox='0 0 24 24'
+                    stroke='currentColor'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth={2}
+                      d='M6 18L18 6M6 6l12 12'
+                    />
+                  </svg>
+                </label>
+              )}
+            </button>
           </div>
         </div>
       </nav>
