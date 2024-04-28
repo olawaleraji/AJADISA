@@ -103,12 +103,12 @@ const Nav = () => {
                   <div
                     role='hidden'
                     id='line'
-                    className='m-auto h-0.5 w-6 rounded bg-sky-900 dark:bg-gray-200 transition duration-300'
+                    className='m-auto h-0.5 w-6 rounded bg-sky-900 transition duration-300'
                   ></div>
                   <div
                     role='hidden'
                     id='line2'
-                    className='m-auto mt-2 h-0.5 w-6 rounded bg-sky-900 dark:bg-gray-200 transition duration-300'
+                    className='m-auto mt-2 h-0.5 w-6 rounded bg-sky-900 transition duration-300'
                   ></div>
                 </label>
               ) : (
