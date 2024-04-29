@@ -82,7 +82,7 @@ function Built ({}: Props) {
             </div>
             <div className='my-6'>
               <h3 className='text-xl font-semibold text-gray-800'>
-                Front accounts - let's work together
+                Front accounts - let&apos;s work together
               </h3>
               <p className='mt-5 text-gray-600'>
                 Are you an accountant? Are you a company formation advisor?

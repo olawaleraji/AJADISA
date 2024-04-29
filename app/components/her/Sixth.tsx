@@ -27,7 +27,7 @@ const Sixth = (props: Props) => {
                   Preline becomes an official Instagram Marketing Partner
                 </h3>
                 <p className='mt-2 text-gray-600'>
-                  Great news we're eager to share.
+                  Great news we&apos;re eager to share.
                 </p>
 
                 <div className='mt-5 sm:mt-auto'>
@@ -43,9 +43,7 @@ const Sixth = (props: Props) => {
                       <h4 className='font-semibold text-gray-800'>
                         Aaron Larsson
                       </h4>
-                      <p className='text-xs text-gray-500'>
-                        Feb 15, 2021
-                      </p>
+                      <p className='text-xs text-gray-500'>Feb 15, 2021</p>
                     </div>
                   </div>
                 </div>
@@ -88,9 +86,7 @@ const Sixth = (props: Props) => {
                       <h4 className='font-semibold text-gray-800'>
                         Hanna Wolfe
                       </h4>
-                      <p className='text-xs text-gray-500'>
-                        Feb 4, 2021
-                      </p>
+                      <p className='text-xs text-gray-500'>Feb 4, 2021</p>
                     </div>
                   </div>
                 </div>
