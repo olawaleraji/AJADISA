@@ -5,6 +5,7 @@ import About from './About'
 import Contact from './Contact'
 import Link from 'next/link'
 import Blog from './Blog'
+import Project from './Project'
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -69,6 +70,18 @@ const Nav = () => {
                     </a>
                   </li>
                   <li className='max-w-max lg:mt-4'>
+                    {' '}
+                    <a
+                      href='#'
+                      className={`block md:px-3 ${
+                        currentPage === 'Project' ? 'active' : ''
+                      }`}
+                      onClick={() => navigateTo('Project')}
+                    >
+                      Project
+                    </a>
+                  </li>
+                  <li className='max-w-max lg:mt-4'>
                     <a
                       href='#'
                       className={`block md:px-3 ${
@@ -89,15 +102,6 @@ const Nav = () => {
                     >
                       Blog
                     </a>
-                  </li>
-                  <li className='max-w-max'>
-                    <button
-                      type='button'
-                      title='Start buying'
-                      className='w-full py-3 whitespace-nowrap px-6 text-center rounded-xl transition bg-gray-900 hover:bg-cyan-500 active:bg-cyan-600 focus:bg-cyan-800'
-                    >
-                      <span className='block text-white text-sm'>Shop now</span>
-                    </button>
                   </li>
                 </ul>
               </div>
@@ -157,6 +161,7 @@ const Nav = () => {
       {/* Render content based on currentPage state */}
       {currentPage === 'Home' && <Home />}
       {currentPage === 'About' && <About />}
+      {currentPage === 'Project' && <Project />}
       {currentPage === 'Contact' && <Contact />}
       {currentPage === 'Blog' && <Blog />}
     </header>

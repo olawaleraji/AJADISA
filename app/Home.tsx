@@ -17,9 +17,9 @@ const Home = (props: Props) => {
       <About />
       <Skill />
       <Features />
+      <Built />
       <Faq />
-      <Updates />
-      {/* <Built /> */}
+      {/* <Updates /> */}
       <Footer />
     </div>
   )
