@@ -37,8 +37,8 @@ const Features = (props: Props) => {
                 I leverage strategic SEO techniques to boost search engine
                 rankings and drive organic traffic to websites. By conducting
                 thorough keyword research and implementing on-page
-                optimizations, I ensure that my clients' websites stand out in
-                search engine results.
+                optimizations, I ensure that my clients&apos; websites stand out
+                in search engine results.
               </p>
             </div>
             <div className='group space-y-6 border border-gray-100 rounded-3xl bg-white px-8 py-12 text-center shadow-2xl shadow-gray-600/10'>
@@ -56,7 +56,7 @@ const Features = (props: Props) => {
                 design visually stunning and user-centric websites that
                 captivate audiences and drive engagement. From wireframing to
                 UI/UX design, I tailor every aspect of the design process to
-                reflect each project's unique brand identity and goals.
+                reflect each project&apos;s unique brand identity and goals.
               </p>
             </div>
           </div>
