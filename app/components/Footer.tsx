@@ -26,13 +26,11 @@ const Footer = (props: Props) => {
             <div className='grid grid-cols-8 gap-6 md:gap-0'>
               <div className='col-span-8 border-r border-gray-100 dark:border-gray-800 md:col-span-2 lg:col-span-3'>
                 <div className='flex items-center justify-between gap-6 border-b border-white dark:border-gray-800 py-6 md:block md:space-y-6 md:border-none md:py-0'>
-                  <img
-                    src='images/logo.svg'
-                    alt='logo tailus'
-                    width='100'
-                    height='42'
-                    className='w-32 dark:brightness-200 dark:grayscale'
-                  />
+                  <Link href='' aria-label='logo'>
+                    <h1 className='flex-none italic text-xl font-semibold'>
+                      Ajao Dev
+                    </h1>
+                  </Link>
                   <div className='flex gap-6'>
                     <Link
                       href='#'
@@ -116,26 +114,6 @@ const Footer = (props: Props) => {
                           About
                         </a>
                       </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Customers
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Enterprise
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Partners
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Jobs
-                        </a>
-                      </li>
                     </ul>
                   </div>
                   <div>
@@ -148,26 +126,6 @@ const Footer = (props: Props) => {
                           About
                         </a>
                       </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Customers
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Enterprise
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Partners
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Jobs
-                        </a>
-                      </li>
                     </ul>
                   </div>
                   <div>
@@ -178,26 +136,6 @@ const Footer = (props: Props) => {
                       <li>
                         <a href='#' className='transition hover:text-cyan-600'>
                           About
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Customers
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Enterprise
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Partners
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Jobs
                         </a>
                       </li>
                     </ul>

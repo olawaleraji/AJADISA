@@ -4,6 +4,7 @@ import Home from './Home'
 import About from './About'
 import Contact from './Contact'
 import Link from 'next/link'
+import Blog from './Blog'
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -44,7 +45,7 @@ const Nav = () => {
             >
               <div className='z-20 flex gap-8 md:gap-0 flex-col md:flex-row md:items-center w-full'>
                 <ul className='pt-28 lg:pt-0 gap-8 tracking-wide font-medium flex-col flex md:flex-row md:gap-0'>
-                  <li className='max-w-max'>
+                  <li className='max-w-max lg:mt-4'>
                     <a
                       href='#'
                       className={`block md:px-3 ${
@@ -55,7 +56,8 @@ const Nav = () => {
                       Home
                     </a>
                   </li>
-                  <li className='max-w-max'>
+                  <li className='max-w-max lg:mt-4'>
+                    {' '}
                     <a
                       href='#'
                       className={`block md:px-3 ${
@@ -66,7 +68,7 @@ const Nav = () => {
                       About
                     </a>
                   </li>
-                  <li className='max-w-max'>
+                  <li className='max-w-max lg:mt-4'>
                     <a
                       href='#'
                       className={`block md:px-3 ${
@@ -77,14 +79,27 @@ const Nav = () => {
                       Contact
                     </a>
                   </li>
+                  <li className='max-w-max lg:mt-4'>
+                    <a
+                      href='#'
+                      className={`block md:px-3 mr-8 ${
+                        currentPage === 'Blog' ? 'active' : ''
+                      }`}
+                      onClick={() => navigateTo('Blog')}
+                    >
+                      Blog
+                    </a>
+                  </li>
+                  <li className='max-w-max'>
+                    <button
+                      type='button'
+                      title='Start buying'
+                      className='w-full py-3 whitespace-nowrap px-6 text-center rounded-xl transition bg-gray-900 dark:bg-gray-700 hover:bg-cyan-500 active:bg-cyan-600 focus:bg-cyan-800'
+                    >
+                      <span className='block text-white text-sm'>Shop now</span>
+                    </button>
+                  </li>
                 </ul>
-                <button
-                  type='button'
-                  title='Start buying'
-                  className='w-full py-3 px-6 text-center rounded-full transition bg-gray-900 dark:bg-gray-700 hover:bg-cyan-500 active:bg-cyan-600 focus:bg-cyan-800 sm:w-max'
-                >
-                  <span className='block text-white text-sm'>Shop now</span>
-                </button>
               </div>
             </div>
           </div>
@@ -143,6 +158,7 @@ const Nav = () => {
       {currentPage === 'Home' && <Home />}
       {currentPage === 'About' && <About />}
       {currentPage === 'Contact' && <Contact />}
+      {currentPage === 'Blog' && <Blog />}
     </header>
   )
 }
