@@ -33,9 +33,9 @@ const About = (props: Props) => {
                 stand the test of time. Let&apos;s collaborate to turn your
                 ideas into reality!
               </p>
-              <div className='divide-y space-y-4 divide-gray-100 dark:divide-gray-800'>
+              <div className='divide-y space-y-4 divide-gray-100'>
                 <div className='mt-8 flex gap-4 md:items-center'>
-                  <div className='w-12 h-12 flex gap-4 rounded-full bg-indigo-100 dark:bg-indigo-900/20'>
+                  <div className='w-12 h-12 flex gap-4 rounded-full bg-indigo-100'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 24 24'
@@ -80,7 +80,7 @@ const About = (props: Props) => {
                     <h3 className='font-semibold text-lg text-teal-400'>
                       Collaboration Specialist
                     </h3>
-                    <p className='text-gray-500 dark:text-gray-400'>
+                    <p className='text-gray-500'>
                       I integrate diverse ideas, foster teamwork, and
                       communicate effectively for successful projects, fostering
                       synergy and cohesion.

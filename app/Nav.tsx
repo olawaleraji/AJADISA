@@ -29,7 +29,7 @@ const Nav = () => {
             <label
               htmlFor='toggleNav'
               role='overlaynav'
-              className='fixed left-0 top-0 transition-all md:peer-checked:hidden md:hidden opacity-0 hidden peer-checked:z-0 peer-checked:opacity-75 peer-checked:block w-full h-screen bg-gray-200 bg-opacity-75 dark:bg-darker dark:opacity-80'
+              className='fixed left-0 top-0 transition-all md:peer-checked:hidden md:hidden opacity-0 hidden peer-checked:z-0 peer-checked:opacity-75 peer-checked:block w-full h-screen bg-gray-200 bg-opacity-75'
             ></label>
             <div className='relative z-40'>
               <Link href='' aria-label='logo'>
@@ -94,7 +94,7 @@ const Nav = () => {
                     <button
                       type='button'
                       title='Start buying'
-                      className='w-full py-3 whitespace-nowrap px-6 text-center rounded-xl transition bg-gray-900 dark:bg-gray-700 hover:bg-cyan-500 active:bg-cyan-600 focus:bg-cyan-800'
+                      className='w-full py-3 whitespace-nowrap px-6 text-center rounded-xl transition bg-gray-900 hover:bg-cyan-500 active:bg-cyan-600 focus:bg-cyan-800'
                     >
                       <span className='block text-white text-sm'>Shop now</span>
                     </button>
