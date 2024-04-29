@@ -36,7 +36,7 @@ const Second = (props: Props) => {
                     </p>
                   </div>
                   <div className='flex flex-col p-8 space-y-4 rounded-md'>
-                    <div className='flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full dark:bg-violet-400 dark:text-gray-900'>
+                    <div className='flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full'>
                       3
                     </div>
                     <p className='text-2xl font-semibold'>

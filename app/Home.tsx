@@ -21,7 +21,7 @@ const Home = (props: Props) => {
       <Customers />
       <Faq />
       <Updates />
-      <Built />
+      {/* <Built /> */}
       <Footer />
     </div>
   )
