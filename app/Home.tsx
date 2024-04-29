@@ -5,7 +5,6 @@ import Footer from './components/Footer'
 import Features from './components/Home/Features'
 import Faq from './components/Faq'
 import Skill from './components/Skill'
-import Customers from './components/Customers'
 import Updates from './components/Updates'
 import Built from './components/Built'
 
@@ -18,7 +17,6 @@ const Home = (props: Props) => {
       <About />
       <Skill />
       <Features />
-      <Customers />
       <Faq />
       <Updates />
       {/* <Built /> */}
