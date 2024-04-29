@@ -108,7 +108,7 @@ const Six = (props: Props) => {
             <h3 className='font-semibold text-indigo-600'>
               Frequently asked questions
             </h3>
-            <p className='mt-3 text-gray-800 whitespace-nowrap text-3xl font-extrabold sm:text-4xl'>
+            <p className='mt-3 text-gray-800 lg:text-3x text-2xl font-bold sm:text-4xl'>
               All information you need to know
             </p>
           </div>
