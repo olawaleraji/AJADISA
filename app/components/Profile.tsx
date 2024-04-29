@@ -51,11 +51,12 @@ const Profile = (props: Props) => {
           </div>
         </div>
         <div className='py-6 md:py-0 md:px-6 rounded-md'>
-          <span className='block mb-2'>Mamba design system</span>
-          <h1 className='text-5xl font-extrabold'>Build it with Mamba</h1>
+          <h1 className='text-3xl font-bold'>
+            Signup to join our FREE blog newsletter{' '}
+          </h1>
           <p className='my-8'>
-            <span className='font-medium'>Modular and versatile.</span>
-            The ultimate design toolkit for savvy technology startups.
+            <span className='font-medium'>Don't miss out – subscribe now!</span>
+            Join our FREE blog newsletter for the latest updates!
           </p>
           <form action='' className='self-stretch space-y-3'>
             <div>
@@ -81,7 +82,7 @@ const Profile = (props: Props) => {
               />
             </div>
             <button className='w-full py-2 font-semibold rounded bg-violet-500 text-gray-200'>
-              Join the waitlist
+              Join the Blog Newsletter
             </button>
           </form>
         </div>

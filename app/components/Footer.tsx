@@ -130,7 +130,7 @@ const Footer = (props: Props) => {
                   </div>
                   <div>
                     <h6 className='text-lg font-medium text-gray-800 dark:text-gray-200'>
-                      Ressources
+                      Resources
                     </h6>
                     <ul className='mt-4 list-inside space-y-4'>
                       <li>
