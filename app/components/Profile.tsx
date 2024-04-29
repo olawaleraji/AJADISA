@@ -55,7 +55,9 @@ const Profile = (props: Props) => {
             Signup to join our FREE blog newsletter{' '}
           </h1>
           <p className='my-8'>
-            <span className='font-medium'>Don't miss out – subscribe now!</span>
+            <span className='font-medium'>
+              Don&apos;t miss out – subscribe now!
+            </span>
             Join our FREE blog newsletter for the latest updates!
           </p>
           <form action='' className='self-stretch space-y-3'>
