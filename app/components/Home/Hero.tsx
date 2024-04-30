@@ -33,13 +33,6 @@ const Hero = (props: Props) => {
               >
                 Download CV
               </Link>
-
-              <Link
-                href='#'
-                className='inline-block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base'
-              >
-                Contact Me
-              </Link>
             </div>
           </div>
           <div className='overflow-hidden rounded-lg bg-gray-100 shadow-lg xl:w-5/12'>
@@ -80,7 +73,7 @@ const Hero = (props: Props) => {
 
             <div className='flex gap-4'>
               <Link
-                href='#'
+                href='https://x.com/Dprinceajao'
                 target='_blank'
                 className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'
               >
@@ -114,7 +107,7 @@ const Hero = (props: Props) => {
               </Link>
 
               <Link
-                href='#'
+                href='https://www.linkedin.com/in/ajao-toheeb-2b9869a3'
                 target='_blank'
                 className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'
               >
@@ -131,7 +124,7 @@ const Hero = (props: Props) => {
               </Link>
 
               <Link
-                href='#'
+                href='https://github.com/dprinceajao'
                 target='_blank'
                 className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'
               >
