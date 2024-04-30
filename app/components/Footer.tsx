@@ -33,7 +33,7 @@ const Footer = (props: Props) => {
                   </Link>
                   <div className='flex gap-6'>
                     <Link
-                      href='#'
+                      href='https://x.com/Dprinceajao'
                       target='_blank'
                       className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'
                     >
@@ -67,7 +67,7 @@ const Footer = (props: Props) => {
                     </Link>
 
                     <Link
-                      href='#'
+                      href='https://www.linkedin.com/in/ajao-toheeb-2b9869a3'
                       target='_blank'
                       className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'
                     >
@@ -84,7 +84,7 @@ const Footer = (props: Props) => {
                     </Link>
 
                     <Link
-                      href='#'
+                      href='https://github.com/dprinceajao'
                       target='_blank'
                       className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'
                     >
