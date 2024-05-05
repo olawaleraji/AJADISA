@@ -4,7 +4,6 @@ import Home from './Home'
 import About from './About'
 import Contact from './Contact'
 import Link from 'next/link'
-import Blog from './Blog'
 import Project from './Project'
 
 const Nav = () => {
@@ -92,7 +91,7 @@ const Nav = () => {
                       Contact
                     </a>
                   </li>
-                  <li className='max-w-max lg:mt-4'>
+                  {/* <li className='max-w-max lg:mt-4'>
                     <a
                       href='#'
                       className={`block md:px-3 mr-8 ${
@@ -102,7 +101,7 @@ const Nav = () => {
                     >
                       Blog
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -163,7 +162,7 @@ const Nav = () => {
       {currentPage === 'About' && <About />}
       {currentPage === 'Project' && <Project />}
       {currentPage === 'Contact' && <Contact />}
-      {currentPage === 'Blog' && <Blog />}
+      {/* {currentPage === 'Blog' && <Blog />} */}
     </header>
   )
 }
