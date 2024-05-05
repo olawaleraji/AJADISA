@@ -14,28 +14,26 @@ const Footer = (props: Props) => {
           viewBox='0 0 1367.743 181.155'
         >
           <path
-            className='fill-current text-gray-100 dark:text-gray-800'
+            className='fill-current text-gray-100'
             id='wave'
             data-name='wave'
             d='M0,0S166.91-56.211,405.877-49.5,715.838,14.48,955.869,26.854,1366,0,1366,0V115H0Z'
             transform='translate(1.743 66.155)'
           ></path>
         </svg>
-        <div className='bg-gradient-to-b from-gray-100 to-transparent dark:from-gray-800 dark:to-transparent pt-1'>
-          <div className='container m-auto space-y-8 px-6 text-gray-600 dark:text-gray-400 md:px-12 lg:px-20'>
+        <div className='bg-gradient-to-b from-gray-100 to-transparent pt-1'>
+          <div className='container m-auto space-y-8 px-6 text-gray-600 md:px-12 lg:px-20'>
             <div className='grid grid-cols-8 gap-6 md:gap-0'>
-              <div className='col-span-8 border-r border-gray-100 dark:border-gray-800 md:col-span-2 lg:col-span-3'>
-                <div className='flex items-center justify-between gap-6 border-b border-white dark:border-gray-800 py-6 md:block md:space-y-6 md:border-none md:py-0'>
-                  <img
-                    src='images/logo.svg'
-                    alt='logo tailus'
-                    width='100'
-                    height='42'
-                    className='w-32 dark:brightness-200 dark:grayscale'
-                  />
+              <div className='col-span-8 border-r border-gray-100 md:col-span-2 lg:col-span-3'>
+                <div className='flex items-center justify-between gap-6 border-b border-white py-6 md:block md:space-y-6 md:border-none md:py-0'>
+                  <Link href='' aria-label='logo'>
+                    <h1 className='flex-none italic text-xl font-semibold'>
+                      Ajao Dev
+                    </h1>
+                  </Link>
                   <div className='flex gap-6'>
                     <Link
-                      href='#'
+                      href='https://x.com/Dprinceajao'
                       target='_blank'
                       className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'
                     >
@@ -69,7 +67,7 @@ const Footer = (props: Props) => {
                     </Link>
 
                     <Link
-                      href='#'
+                      href='https://www.linkedin.com/in/ajao-toheeb-2b9869a3'
                       target='_blank'
                       className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'
                     >
@@ -86,7 +84,7 @@ const Footer = (props: Props) => {
                     </Link>
 
                     <Link
-                      href='#'
+                      href='https://github.com/dprinceajao'
                       target='_blank'
                       className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'
                     >
@@ -107,7 +105,7 @@ const Footer = (props: Props) => {
               <div className='col-span-8 md:col-span-6 lg:col-span-5'>
                 <div className='grid grid-cols-2 gap-6 pb-16 sm:grid-cols-3 md:pl-16'>
                   <div>
-                    <h6 className='text-lg font-medium text-gray-800 dark:text-gray-200'>
+                    <h6 className='text-lg font-medium text-gray-800'>
                       Company
                     </h6>
                     <ul className='mt-4 list-inside space-y-4'>
@@ -116,30 +114,10 @@ const Footer = (props: Props) => {
                           About
                         </a>
                       </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Customers
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Enterprise
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Partners
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Jobs
-                        </a>
-                      </li>
                     </ul>
                   </div>
                   <div>
-                    <h6 className='text-lg font-medium text-gray-800 dark:text-gray-200'>
+                    <h6 className='text-lg font-medium text-gray-800'>
                       Products
                     </h6>
                     <ul className='mt-4 list-inside space-y-4'>
@@ -148,31 +126,11 @@ const Footer = (props: Props) => {
                           About
                         </a>
                       </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Customers
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Enterprise
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Partners
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Jobs
-                        </a>
-                      </li>
                     </ul>
                   </div>
                   <div>
-                    <h6 className='text-lg font-medium text-gray-800 dark:text-gray-200'>
-                      Ressources
+                    <h6 className='text-lg font-medium text-gray-800'>
+                      Resources
                     </h6>
                     <ul className='mt-4 list-inside space-y-4'>
                       <li>
@@ -180,30 +138,10 @@ const Footer = (props: Props) => {
                           About
                         </a>
                       </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Customers
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Enterprise
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Partners
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#' className='transition hover:text-cyan-600'>
-                          Jobs
-                        </a>
-                      </li>
                     </ul>
                   </div>
                 </div>
-                <div className='flex justify-between border-t border-gray-100 dark:border-gray-800 py-4 pb-8 md:pl-16'>
+                <div className='flex justify-between border-t border-gray-100 py-4 pb-8 md:pl-16'>
                   <p className='text-xs text-gray-600'>
                     © Copyright {currentYear} PROJECT SURVIVOR.
                   </p>
